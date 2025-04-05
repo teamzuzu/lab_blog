@@ -11,11 +11,15 @@ github_username:
 ### Build settings
 
 url: https://teamzuzu.github.io
-baseurl: /lab_blog
+baseurl: /blog
 
 permalink: pretty
 
 theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   tools:
