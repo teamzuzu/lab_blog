@@ -1,31 +1,24 @@
 ### Site metadata
 
 # Don't make the title longer than this, otherwise it gets covered in mobile view.
-title: Jekyll Blog Demo
-description: Starter for a static website or blog - built with Jekyll, a minimal theme and GH Pages
+title: lab blog
+description: lab blog
 
 email:
 twitter_username:
-github_username: MichaelCurrin
-rss: RSS
+github_username:
 
 ### Build settings
 
-url: https://michaelcurrin.github.io
-baseurl: /jekyll-blog-demo
+url: https://teamzuzu.github.io
+baseurl: /lab_blog
 
 permalink: pretty
 
 theme: minima
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
 collections:
   tools:
-    output: true
-  languages:
     output: true
 
 defaults:
